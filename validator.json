@@ -1,0 +1,172 @@
+{
+    "$id": "/dcic/signature-commons-schema/v5/meta/library/authors.json",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "allOf": [
+      {
+        "$ref": "/dcic/signature-commons-schema/v5/core/meta.json"
+      },
+      {
+        "properties": {
+          "author name" : {
+              "description": "the author's name",
+              "type" : "string"
+          },
+          "institution name (large institutions only)": {
+              "description": "the author's institution",
+              "type": "string"
+          }, 
+          "country associated with most recent institution": {
+              "description": "author's country",
+              "type": "string"
+          },
+          "# papers 1960-2018": {
+              "description": "number of papers from 1960-2018",
+              "type":"string"
+          },
+          "year of first publication": {
+              "description": "year of first publication",
+              "type": "string"
+          },
+          "year of most recent publication": {
+              "description": "year of most recent publication",
+              "type": "string"
+          },
+          "rank based on composite score c, self-citations excluded": {
+              "description": "rank",
+              "type": "string"
+          },
+          "total cites 1996-2018, self-citations excluded": {
+              "description": "total citations from 1996 to 2018",
+              "type":"string"
+          },
+          "h-index as of end-2018, self-citations excluded": {
+              "description": "Hirsch index",
+              "type": "string"
+          },
+          "hm-index as of end-2018, self-citations excluded": {
+              "description": "co authorship adjusted Schreiber hm-index",
+              "type": "string"
+          },
+          "number of single authored papers, self-citations excluded": {
+              "description": "number of single authored papers",
+              "type": "string"
+          },
+          "total cites to single authored papers, self-citations excluded": {
+              "description": "total cites",
+              "type": "string"
+          },
+          "number of single+first authored papers, self-citations excluded": {
+              "description" : "number of single and first authored papers",
+              "type" : "string"
+          },
+          "total cites to single+first authored papers, self-citations excluded": {
+              "description": "total citations to single and first authored papers",
+              "type": "string"
+          },
+          "number of single+first+last authored papers, self-citations excluded": {
+              "description" : "number of single and first and last authored papers",
+              "type": "string"
+          },
+          "total cites to single+first+last authored papers, self-citations excluded" : {
+              "description": "total cites to single and first and last authored papers",
+              "type" : "string"
+          },
+          "composite score, self-citations excluded": {
+              "description": "composite score",
+              "type": "string"
+          },
+          "number of distinct citing papers, self-citations excluded": {
+              "description": "number of distinct citing papers",
+              "type": "string"
+          },
+          "ratio of total citations to distinct citing papers, self-citations excluded": {
+              "description": "ratio of total citations to distinct citing papers",
+              "type": "string"
+          },
+          "self-citation percentage": {
+              "description": "self citation percentage",
+              "type": "string"
+          },
+          "rank based on composite score c": {
+              "description": "rank based on composite score C",
+              "type" : "string"
+          },
+          "total cites 1996-2018": {
+              "description": "total citations 1996-2018",
+              "type" : "string"
+          },
+          "h-index as of end-2018": {
+              "description": "h-index as of end to 2018",
+              "type" : "string"
+          },
+          "hm-index as of end-2018" : {
+              "description": "hm-index as of end to 2018",
+              "type": "string"
+          },
+          "number of single authored papers": {
+              "description": "number of single authored papers",
+              "type" : "string"
+          },
+          "total cites to single authored papers" : {
+              "description": "total citations to single authored papers",
+              "type" : "string"
+          },
+          "number of single+first authored papers": {
+              "description": "number of single and first authored papers",
+              "type": "string"
+          },
+          "total cites to single+first+last authored papers": {
+              "description" : "total cites to single+first+last authored papers",
+              "type" : "string"
+          },
+          "composite score" : {
+              "description": "composite score",
+              "type": "string"
+          },
+          "number of distinct citing papers": {
+              "description": "number of distinct citing papers",
+              "type": "string"
+          },
+          "ratio of total citations to distinct citing papers": {
+              "description": "ratio of total citations to distinct citing papers",
+              "type": "string"
+          },
+          "top ranked Science-Metrix category (out of 176) for author": {
+              "description": "top ranked Science-Metrix category (out of 176) for author",
+              "type" : "string"
+          },
+          "name of top ranked Science-Metrix category for author" : {
+              "description" : "name of top ranked Science-Metrix category for author",
+              "type" : "string"
+          },
+          "fraction of AR+RE+CP in Science-Metrix category for author": {
+              "description": "fraction of AR+RE+CP in Science-Metrix category for author",
+              "type": "string"
+          }, 
+          "second ranked Science-Metrix category (out of 176) for author": {
+              "description": "second ranked Science-Metrix category (out of 176) for author",
+              "type": "string"
+          },
+          "associated category name (name2)" : {
+              "description": "associated category name",
+              "type": "string"
+          },
+          "associated category fraction (frac2)": {
+              "description": "associated category fraction",
+              "type": "string"
+          },
+          "top ranked higher-level Science-Metrix category (out of 22) for author": {
+              "description" : "top ranked higher-level Science-Metrix category (out of 22) for author",
+              "type": "string"
+          },
+          "associated category name (name22)" : {
+              "description": "associated category name",
+              "type": "string"
+          },
+          "associated category fraction (frac22)" : {
+              "description": "associated category fraction", 
+              "type" : "string"
+          }
+        }
+    }]
+}

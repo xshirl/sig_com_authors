@@ -1,0 +1,42 @@
+authfull		author name
+inst_name		institution name (large institutions only)
+cntry		country associated with most recent institution
+np6018		# papers 1960-2018
+firstyr		year of first publication
+lastyr		year of most recent publication
+rank (ns)	self-citations excluded	rank based on composite score c, self-citations excluded
+nc9618 (ns)	self-citations excluded	total cites 1996-2018, self-citations excluded
+h18 (ns)	self-citations excluded	h-index as of end-2018, self-citations excluded
+hm18 (ns)	self-citations excluded	hm-index as of end-2018, self-citations excluded
+nps (ns)	self-citations excluded	number of single authored papers, self-citations excluded
+ncs (ns)	self-citations excluded	total cites to single authored papers, self-citations excluded
+npsf (ns)	self-citations excluded	number of single+first authored papers, self-citations excluded
+ncsf (ns)	self-citations excluded	total cites to single+first authored papers, self-citations excluded
+npsfl (ns)	self-citations excluded	number of single+first+last authored papers, self-citations excluded
+ncsfl (ns)	self-citations excluded	total cites to single+first+last authored papers, self-citations excluded
+c (ns)	self-citations excluded	composite score, self-citations excluded
+npciting (ns)	self-citations excluded	number of distinct citing papers, self-citations excluded
+cprat (ns)	self-citations excluded	ratio of total citations to distinct citing papers, self-citations excluded
+self%		self-citation percentage
+rank	all citations	rank based on composite score c
+nc9618	all citations	total cites 1996-2018
+h18	all citations	h-index as of end-2018
+hm18	all citations	hm-index as of end-2018
+nps	all citations	number of single authored papers
+ncs	all citations	total cites to single authored papers
+npsf	all citations	number of single+first authored papers
+ncsf	all citations	total cites to single+first authored papers
+npsfl	all citations	number of single+first+last authored papers
+ncsfl	all citations	total cites to single+first+last authored papers
+c	all citations	composite score
+npciting	all citations	number of distinct citing papers
+cprat	all citations	ratio of total citations to distinct citing papers
+sm-1	all citations	top ranked Science-Metrix category (out of 186) for author
+name1	all citations	name of top ranked Science-Metrix category for author
+frac1	all citations	fraction of AR+RE+CP in Science-Metrix category for author
+sm-2	all citations	second ranked Science-Metrix category (out of 186) for author
+name2	all citations	associated category name (name2)
+frac2	all citations	associated category fraction (frac2)
+sm22	all citations	top ranked higher-level Science-Metrix category (out of 22) for author
+name22	all citations	associated category name (name22)
+frac22	all citations	associated category fraction (frac22)
