@@ -1,9 +1,13 @@
 import json
 import glob
 
-institutions = set()
-for i in glob.glob("*.json"):
+institution= set()
+for i in glob.glob("out/*.json"):
     with open(i) as o:
         auth = json.loads(o.read())
-        inst = auth["inst_name"]
-        institutions.add(inst)
+        inst = auth["institution name (large institutions only)"]
+        institution.add(inst)
+
+with open("institutions.txt", "w") as f:
+    for item in institution:
+        f.write("%s\n" % item)

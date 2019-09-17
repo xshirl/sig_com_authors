@@ -1,0 +1,28 @@
+{
+    "$id": "/dcic/signature-commons-schema/v5/meta/library/authors.json",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "allOf": [
+      {
+        "$ref": "/dcic/signature-commons-schema/v5/core/meta.json"
+      },
+      {
+        "properties": {
+          "Institution name" : {
+              "description": "institution name",
+              "type" : "string"
+          },
+          "Country" : {
+              "description": "country of institution",
+              "type": "string"
+          },
+          "Url" : {
+              "description": "website of institution",
+              "type": "string"
+          },
+          "Logo": {
+              "description": "logo of institution",
+              "type" : "string"
+          }
+        }
+    }]
+}
