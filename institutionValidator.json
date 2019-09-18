@@ -1,5 +1,5 @@
 {
-    "$id": "/dcic/signature-commons-schema/v5/meta/library/authors.json",
+    "$id": "/dcic/signature-commons-schema/v5/meta/library/institutions.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "allOf": [
       {

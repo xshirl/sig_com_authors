@@ -22,7 +22,7 @@ for i in institutions:
         data = {
         "id": str(uuid.uuid4()),
         "meta": {
-            "$validator": "",
+            "$validator": "https://raw.githubusercontent.com/xshirl/sig_com_authors/master/institutionValidator.json",
             "Institution name": i,
             "Country":  inst["countryName"] if i == inst["name"] else "",
             "Url": inst["url"] if i == inst["name"] else "",
@@ -35,6 +35,6 @@ for i in institutions:
                     headers={"Content-Type": "application/json", 'Authorization': 'Basic {credential}'.format(credential=credential)},
                     json=data
                 )
-                if not res.ok:
-                    print(res.json())
-                    break
+        if not res.ok:
+            print(res.json())
+            break
